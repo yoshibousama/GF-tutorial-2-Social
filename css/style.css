@@ -68,13 +68,15 @@ body {
   background: var(--secondary-bg);
 }
 header {
-  max-width: 1100px;
   background-color: var(--primary-bg);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
   margin-bottom: 40px;
+}
+.header-bar {
+  max-width: 1100px;
 }
 .header-list {
   display: flex;
